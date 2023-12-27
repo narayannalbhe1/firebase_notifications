@@ -64,7 +64,7 @@ class _LoginScreenState extends State<LoginScreen> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.deepPurple,
-          automaticallyImplyLeading: true,
+          automaticallyImplyLeading: false,
           title: Center(child: Text('Login')),
         ),
         body: Padding(
